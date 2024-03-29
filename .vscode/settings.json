@@ -1,0 +1,19 @@
+{
+    "python.defaultInterpreterPath": "./venv/Scripts/python.exe",
+    "python.languageServer": "Pylance",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.jediEnabled": false,
+    "python.autoComplete.extraPaths": [
+        "lib",
+        "../micropython-stubs/stubs/cpython_core-pycopy",
+        "../micropython-stubs/stubs/micropython-v1_19_1-frozen/esp32/GENERIC",
+        "../micropython-stubs/stubs/micropython-v1_19_1-esp32",
+    ],
+    "python.analysis.extraPaths": [
+        "lib",
+        "../micropython-stubs/stubs/cpython_core-pycopy",
+        "../micropython-stubs/stubs/micropython-v1_19_1-frozen/esp32/GENERIC",
+        "../micropython-stubs/stubs/micropython-v1_19_1-esp32"
+    ],
+}
