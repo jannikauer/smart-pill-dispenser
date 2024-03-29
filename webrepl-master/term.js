@@ -1568,7 +1568,7 @@ Terminal.prototype.write = function(data) {
             if (this.convertEol) {
               this.x = 0;
             }
-            // TODO: Implement eat_newline_glitch.
+            //
             // if (this.realX >= this.cols) break;
             // this.realX = 0;
             this.y++;
@@ -2507,7 +2507,7 @@ Terminal.prototype.write = function(data) {
                 // SGR
                 // CSI Pm m
                 case 'm':
-                  // TODO: Parse this.curAttr here.
+                  //
                   // pt = '0m';
                   // valid = 1;
                   valid = 0; // Not implemented.
