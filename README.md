@@ -20,7 +20,7 @@ To set up the Smart Pill Dispenser, follow these steps:
 
 1. Use TTGO Lillygo with the correct firmware. You can find the firmware on [GitHub](https://github.com/russhughes/st7789_mpy).
 2. Upload `Main.py` to the ESP32 (Lillygo).
-3. Open `Webrepl.html`.
+3. Open `Webrepl.html`. The necessary files can be found here: [webrepl-repository](https://github.com/micropython/webrepl).
 4. Connect to the ESP32 via Wi-Fi.
 5. Upload `medication.txt`.
 6. Enter the password (default: 12345678).
